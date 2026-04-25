@@ -1,0 +1,4 @@
+*.log
+*.pcap
+*.key
+.env
