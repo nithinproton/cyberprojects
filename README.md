@@ -16,8 +16,9 @@ Vulnerability reporting
 
 The scanner automatically identifies form inputs, injects malicious payloads, sends crafted requests to the target server, and analyzes the responses to detect vulnerabilities.
 
-Project Architecture
+# Project Architecture
 
+```text
                     ┌──────────────────────┐
                     │   Target Website     │
                     │  Vulnerable Flask App│
@@ -54,6 +55,7 @@ Project Architecture
                     │ Response Analysis    │
                     │ Vulnerability Detect │
                     └──────────────────────┘
+```
 
 Features
 Automated input field discovery
