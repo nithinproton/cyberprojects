@@ -54,7 +54,7 @@ Project Architecture
                     │ Response Analysis    │
                     │ Vulnerability Detect │
                     └──────────────────────┘
-```
+
 Features
 Automated input field discovery
 Reflected XSS detection
